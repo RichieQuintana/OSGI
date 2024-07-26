@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1721963530925
+Build-Jdk-Spec: 22
+Bundle-Activator: org.orga.osgi_rc.Activator
+Bundle-Description: osgi_rc OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: osgi_rc Bundle
+Bundle-SymbolicName: osgi_rc
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.9
+Export-Package: org.orga.osgi_rc;version="0.0.1.SNAPSHOT";uses:="org.osg
+ i.framework"
+Import-Package: java.io,java.lang,org.osgi.framework;version="[1.10,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-6.3.1.202206071316
